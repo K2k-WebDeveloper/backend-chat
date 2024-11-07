@@ -34,6 +34,11 @@ const allowedOrigins = [
   "http://localhost:5173", // Your Vite dev server
   "http://localhost:3000", // Optional: Your local backend
   "https://chat-app-demo-9e8a.onrender.com", // Your production backend
+  "https://messageinabotlle.app",       // Production frontend
+  "https://www.messageinabotlle.app",   // Production with www subdomain
+  "capacitor://localhost",              // Ionic app on iOS/Android
+  "ionic://localhost"                   // Older Ionic versions or custom schemes
+  
 ];
 
 // CORS configuration
